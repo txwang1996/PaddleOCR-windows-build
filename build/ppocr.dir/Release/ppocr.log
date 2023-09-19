@@ -1,0 +1,800 @@
+﻿  Building Custom Rule C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/CMakeLists.txt
+  args.cpp
+  clipper.cpp
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\clipper.cpp(3605,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+  main.cpp
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/types.hpp(782): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<cv::String,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/persistence.hpp(417): message : 請參閱 'std::vector<cv::String,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<cv::String,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/persistence.hpp(417): message : 請參閱 'std::vector<cv::String,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<cv::String,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/persistence.hpp(417): message : 請參閱 'std::vector<cv::String,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<cv::String,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/persistence.hpp(417): message : 請參閱 'std::vector<cv::String,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<cv::String,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core/persistence.hpp(417): message : 請參閱 'std::vector<cv::String,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<cv::String>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\main.cpp(118,46): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\main.cpp(173,49): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+  ocr_cls.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_cls.cpp(27,32): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  ocr_det.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_det.cpp(133,56): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_det.cpp(133,30): warning C4244: '引數': 將 'double' 轉換為 'const float'，由於類型不同，可能導致資料遺失
+  ocr_rec.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_rec.cpp(27,32): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_rec.cpp(41,24): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\ocr_rec.cpp(45,22): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  paddleocr.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(34,26): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(43): message : 請參考正在進行編譯的函式 樣板 具現化 '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)'
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src\auto_log/autolog.h(65): message : 請參考正在進行編譯的函式 樣板 具現化 '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)'
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  paddlestructure.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\third_party\install\gflags\include\gflags/gflags.h(188): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(52,21): warning C4244: '=': 將 'int' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(53,21): warning C4244: '=': 將 'int' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(154,24): warning C4244: '=': 將 'int' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(159,26): warning C4244: '引數': 將 '_Ty' 轉換為 'const unsigned __int64'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(230,13): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(232,15): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\paddlestructure.cpp(233,15): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(34,26): warning C4244: '=': 將 'double' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(43): message : 請參考正在進行編譯的函式 樣板 具現化 '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)'
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Fn=std::plus<void>
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src\auto_log/autolog.h(65): message : 請參考正在進行編譯的函式 樣板 具現化 '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,int>(const _InIt,const _InIt,_Ty)'
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>
+          ]
+  postprocess_op.cpp
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(169,31): warning C4244: '引數': 將 '_Tp' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(170,31): warning C4244: '引數': 將 '_Tp' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Ty=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(202,15): warning C4244: '正在初始化': 將 '_Tp' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(243,10): warning C4244: 'return': 將 '_Tp' 轉換為 'float'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=double
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(262,75): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(333,32): warning C4244: '/=': 將 'float' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(334,32): warning C4244: '/=': 將 'float' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(423,24): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(425,24): warning C4244: '=': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(427,29): warning C4244: '引數': 將 'float' 轉換為 '_Ty'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(449,40): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(465,19): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(466,19): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(499,36): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(514,14): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(515,14): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(681,68): warning C4244: '引數': 將 'ClipperLib::cInt' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(713): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,ClipperLib::cInt&,ClipperLib::cInt&>(_Alloc &,_Objty *const ,ClipperLib::cInt &,ClipperLib::cInt &)'
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(713): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,ClipperLib::cInt&,ClipperLib::cInt&>(_Alloc &,_Objty *const ,ClipperLib::cInt &,ClipperLib::cInt &)'
+          with
+          [
+              _Alloc=std::allocator<cv::Point2f>,
+              _Ty=cv::Point_<float>,
+              _Objty=cv::Point_<float>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\vector(731): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<cv::Point2f>>::_Emplace_back_with_unused_capacity<ClipperLib::cInt&,ClipperLib::cInt&>(ClipperLib::cInt &,ClipperLib::cInt &)'
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\postprocess_op.cpp(57): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::vector<cv::Point2f,std::allocator<cv::Point2f>>::emplace_back<ClipperLib::cInt&,ClipperLib::cInt&>(ClipperLib::cInt &,ClipperLib::cInt &)'
+  preprocess_op.cpp
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\preprocess_op.cpp(104,17): warning C4101: 'resize_h': 未參考的區域變數
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\preprocess_op.cpp(127,17): warning C4101: 'resize_h': 未參考的區域變數
+  structure_layout.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\structure_layout.cpp(87,35): warning C4267: '引數': 將 'size_t' 轉換為 '_Ty'，資料可能遺失
+          with
+          [
+              _Ty=int
+          ]
+  structure_table.cpp
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(173,15): warning C4251: 'paddle_infer::Tensor::name_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Tensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(153,15): warning C4251: 'paddle::PaddleTensor::name': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(154,20): warning C4251: 'paddle::PaddleTensor::shape': class 'std::vector<int,std::allocator<int>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(71): message : 請參閱 'std::vector<int,std::allocator<int>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(157,36): warning C4251: 'paddle::PaddleTensor::lod': class 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::PaddleTensor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(145): message : 請參閱 'std::vector<std::vector<size_t,std::allocator<size_t>>,std::allocator<std::vector<size_t,std::allocator<size_t>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(321,15): warning C4251: 'paddle::NativeConfig::prog_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(323,7): warning C4251: 'paddle::NativeConfig::param_file': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::NativeConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(111,28): warning C4251: 'paddle::PaddlePassBuilder::analysis_passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_pass_builder.h(115,28): warning C4251: 'paddle::PaddlePassBuilder::passes_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 class 'paddle::PaddlePassBuilder' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(866,15): warning C4251: 'paddle::AnalysisConfig::model_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(867,23): warning C4251: 'paddle::AnalysisConfig::prog_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(868,23): warning C4251: 'paddle::AnalysisConfig::params_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(876,35): warning C4251: 'paddle::AnalysisConfig::gpu_fp16_disabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(918,43): warning C4251: 'paddle::AnalysisConfig::min_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(919,43): warning C4251: 'paddle::AnalysisConfig::max_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(920,43): warning C4251: 'paddle::AnalysisConfig::optim_input_shape_': class 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(529): message : 請參閱 'std::map<std::string,std::vector<int,std::allocator<int>>,std::less<std::string>,std::allocator<std::pair<const std::string,std::vector<int,std::allocator<int>>>>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(921,28): warning C4251: 'paddle::AnalysisConfig::trt_disabled_ops_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(932,15): warning C4251: 'paddle::AnalysisConfig::shape_range_info_path_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(942,35): warning C4251: 'paddle::AnalysisConfig::mkldnn_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(959,15): warning C4251: 'paddle::AnalysisConfig::serialized_info_cache_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961,41): warning C4251: 'paddle::AnalysisConfig::pass_builder_': class 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(961): message : 請參閱 'std::unique_ptr<paddle::PassStrategy,std::default_delete<paddle::PassStrategy>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(964,28): warning C4251: 'paddle::AnalysisConfig::lite_passes_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(965,28): warning C4251: 'paddle::AnalysisConfig::lite_ops_filter_': class 'std::vector<std::string,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_tensor.h(30): message : 請參閱 'std::vector<std::string,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(975,15): warning C4251: 'paddle::AnalysisConfig::xpu_autotune_file_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(976,15): warning C4251: 'paddle::AnalysisConfig::xpu_precision_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985,42): warning C4251: 'paddle::AnalysisConfig::mkldnn_quantizer_config_': class 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(985): message : 請參閱 'std::shared_ptr<paddle::MkldnnQuantizerConfig>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(987,35): warning C4251: 'paddle::AnalysisConfig::bfloat16_enabled_op_types_': class 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(261): message : 請參閱 'std::unordered_set<std::string,std::hash<std::string>,std::equal_to<std::string>,std::allocator<std::string>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1006,15): warning C4251: 'paddle::AnalysisConfig::opt_cache_dir_': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4871): message : 請參閱 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(1010,14): warning C4251: 'paddle::AnalysisConfig::dist_config_': struct 'paddle::DistConfig' 必須有 DLL 介面，才能被為 struct 'paddle::AnalysisConfig' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(79): message : 請參閱 'paddle::DistConfig' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_analysis_config.h(410,49): warning C4244: 'return': 將 'const uint64_t' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(153,44): warning C4251: 'paddle_infer::Predictor::predictor_': class 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::Predictor' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_api.h(288): message : 請參閱 'std::unique_ptr<paddle::PaddlePredictor,std::default_delete<paddle::PaddlePredictor>>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(200,30): warning C4251: 'paddle_infer::services::PredictorPool::main_pred_': class 'std::shared_ptr<paddle_infer::Predictor>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(168): message : 請參閱 'std::shared_ptr<paddle_infer::Predictor>' 的宣告
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201,43): warning C4251: 'paddle_infer::services::PredictorPool::preds_': class 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 必須有 DLL 介面，才能被為 class 'paddle_infer::services::PredictorPool' 的用戶端使用
+C:\Users\王泰翔\Desktop\deploy\paddle_inference\paddle\include\paddle_inference_api.h(201): message : 請參閱 'std::vector<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>,std::allocator<std::unique_ptr<paddle_infer::Predictor,std::default_delete<paddle_infer::Predictor>>>>' 的宣告
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\structure_table.cpp(32,32): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+  utility.cpp
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:/Users/王泰翔/Desktop/deploy/opencv/build/include\opencv2/core.hpp(1744,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(161,28): warning C4244: '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(162,44): warning C4244: '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(162,28): warning C4244: '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(163,33): warning C4244: '引數': 將 'int' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(166,53): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(166,39): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(167,53): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(167,39): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(168,53): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(168,39): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(169,53): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(169,39): warning C4244: '引數': 將 '_Ty' 轉換為 '_Tp'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(189,35): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(189,35): warning C4267: '正在初始化': 將 'size_t' 轉換為 'const int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(356,19): warning C4244: '=': 將 'double' 轉換為 'uint32_t'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(362,26): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(397,22): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\src\utility.cpp(421,22): warning C4244: 'return': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  正在產生程式碼...
+  ppocr.vcxproj -> C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\Release\ppocr.exe

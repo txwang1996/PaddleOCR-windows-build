@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/extern_autolog-populate"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/4efd0708144653862f823fd5a9d15b00/extern_autolog-populate.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/26c7bf0219ad59c49ddf991eddd914a8/extern_autolog-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/\u738b\u6cf0\u7fd4/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/3c5b1b48eb53951b8f7f5d900e41b5a4/extern_autolog-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"extern_autolog-populate"
+		],
+		"name" : "extern_autolog-populate"
+	}
+}

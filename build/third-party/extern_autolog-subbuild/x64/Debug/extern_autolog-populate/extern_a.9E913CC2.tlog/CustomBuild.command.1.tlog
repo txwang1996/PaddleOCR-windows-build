@@ -1,0 +1,150 @@
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-DOWNLOAD.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-UPDATE.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-src
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -P C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/tmp/extern_autolog-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-CONFIGURE.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-BUILD.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-INSTALL.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\3C5B1B48EB53951B8F7F5D900E41B5A4\EXTERN_AUTOLOG-POPULATE-TEST.RULE
+setlocal
+cd C:\Users\王泰翔\Desktop\deploy\PaddleOCR\deploy\cpp_infer\build\third-party\extern_autolog-build
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\26C7BF0219AD59C49DDF991EDDD914A8\EXTERN_AUTOLOG-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/Debug/extern_autolog-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/autolog/src/extern_autolog-populate-stamp/Debug/extern_autolog-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKEFILES\4EFD0708144653862F823FD5A9D15B00\EXTERN_AUTOLOG-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\王泰翔\DESKTOP\DEPLOY\PADDLEOCR\DEPLOY\CPP_INFER\BUILD\THIRD-PARTY\EXTERN_AUTOLOG-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild -BC:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild --check-stamp-file C:/Users/王泰翔/Desktop/deploy/PaddleOCR/deploy/cpp_infer/build/third-party/extern_autolog-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
